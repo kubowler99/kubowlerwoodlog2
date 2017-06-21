@@ -1,0 +1,33 @@
+{
+  "name": "kubowlerwoodlog",
+  "description": "Minimalist log node messages module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/kubowler99/kubowlerwoodlog.git"
+  },
+  "keywords": [
+	"log",
+	"woodenlog",
+	"log",
+	"messages"
+  ],
+  "author": "Brian Schmidtberger",
+  "license": "MIT",
+  "bugs": {
+	"url": "https://github.com/kubowler99/kubowlerwoodlog/issues"
+  },
+  "homepage": "https://github.com/kubowler99/kubowlerwoodlog#readme",
+  "dependencies": {
+    "ansi-styles": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
